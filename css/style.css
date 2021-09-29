@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first h1 {
+    width: 1200px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.first h2 {
+    margin-bottom: 20px;
+}
+.first p {
+    width: 1130px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.first button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.first button:hover {
+    box-shadow: 5px 3px 5px #04293bbd;
+}
+.change {
+    background-color: #1AA7EC !important;
+}
+
+.hide {
+    display: none;
+    transition: all 1s;
+}
+
+main {
+    width: 80%;
+    margin: 50px auto 100px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    transition: display 1s;
+}
+.btn-box {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px #ccc;
+}
+.btn-box button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-box i {
+    margin-right: 10px;
+}
+.btn-box button:hover i {
+    color: #1AA7EC;
+}
+
+.centent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+    transition: .5s;
+}
+.left {
+    flex-basis: 1;
+}
+.left p {
+    padding: 30px 0; 
+    width: 80%;
+    line-height: 1.5;
+}
+.left a {
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 20px;
+    background-color: #1AA7EC;
+    color: #fff;
+    text-align: center;
+}
+.right {
+    flex-basis: 1;
+}
+.right img {
+    width: 550px;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+#centent1 {
+    transform: translateX(0);
+}
+
+#btn1 {
+    color: #1AA7EC;
+}
